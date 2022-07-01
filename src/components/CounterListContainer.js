@@ -6,7 +6,7 @@ import CounterList from "./CounterList";
 const mapStateToProps = (state) => {
 
     return {
-        counters: state.counters
+        counters: state.get('counters')
     };
 };
 
