@@ -1,13 +1,11 @@
 import React, {Component} from "react";
-import Counter from "../components/Counter";
-import ContactContainer from "../components/ContactContainer";
 import Buttons from "../components/Button";
 import CounterListContainer from "../components/CounterListContainer";
 
 import { connect } from 'react-redux';
-import * as actions from '../actions';
+import * as actions from '../modules';
 import {getRandomColor} from "../utils";
-import Immutable from 'immutable';
+import immutable from 'immutable';
 
 class App extends Component {
     render() {

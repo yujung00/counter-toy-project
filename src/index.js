@@ -5,7 +5,7 @@ import App from "./containers/App";
 
 //Redux관련 불러오기
 import {createStore} from 'redux';
-import reducers from './reducres';
+import reducers from './modules';
 import {Provider} from "react-redux";
 
 // store 생성
