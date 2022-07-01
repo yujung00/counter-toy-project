@@ -12,13 +12,11 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => ({
    onIncrement: (index) => {
-       console.dir(index)
        return dispatch(actions.increment(index));
    },
    onDecrement: (index) => dispatch(actions.decrement(index)),
    onSetColor: (index) => {
        const color = getRandomColor();
-       console.dir(`index :: :${index}`)
        dispatch(actions.setColor({index, color}));
    }
 });

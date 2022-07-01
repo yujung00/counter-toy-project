@@ -19,8 +19,6 @@ export const decrement = (index) => ({
 
 // 다른 액션 생성자들과 달리, 파라미터를 갖고있습니다!
 export const setColor = ({index, color}) => {
-    console.dir(`color::: ${color}`)
-    console.dir(`index::: ${index}`)
     return {
         type: types.SET_COLOR,
         index,

@@ -16,8 +16,6 @@ function counter(state = initialState, action){
     const select = counters[index];
     const nextCounters = [...counters];
 
-    console.dir(action)
-
     switch (action.type) {
         case types.CREATE:
 

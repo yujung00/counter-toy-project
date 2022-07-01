@@ -5,8 +5,6 @@ import './CounterList.css';
 import Counter from "./Counter";
 
 const CounterList = ({counters, onIncrement, onDecrement, onSetColor}) => {
-    console.dir(counters)
-
 
     const counterList = counters.map((counter, index) => {
         return <Counter
